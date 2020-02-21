@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    font-family: 'Roboto' ;
+}
+/*first section*/
+.header{
+    background-image: url("personal-website\personal-website\header.png");
+    background-repeat: no-repeat;
+    float: left;
+    height: 24%;
+    margin-bottom: 5px;
+}
+h1{
+    color: coral;
+}
+.intro{
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-top: 7px;
+
+}
+.first-img{
+    float: left;
+    width: 50%;
+}
+.button:hover{
+    background-color: rgb(238, 241, 11) 44);
+    color:black;
+}
+.button{
+    text-decoration: none;
+    text-align: center;
+    background-color: #63bbf2;
+    padding:4px 10px;
+    border-radius: 10px;
+    color: lemonchiffon;
+
+}
+/*first section end*/
+
+/*second part start*/
+.mid{
+    float: left;
+    height: 24%;
+    margin-top: 50px;
+}
+.second-img{
+    float: left;
+    width: 50%;
+  
+}
+.biography{
+    padding-top: 5px;
+    float: left;
+    width: 45%;
+    text-align: center;
+    justify-content: center;
+}
+/*second part finished*/
+.lower-mid{
+    float: left;
+    height: 24%;
+    text-align: center;
+    margin-top: 50px;
+    justify-content: center;
+    justify-self: center;
+    background-color: lightcyan;
+
+}
+.work1{
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+    border: 1px lemonchiffon;
+    padding: 5px;
+}
+.work2{
+    padding: 5px;
+    float: left;
+    width: 25%;
+}
+.work3{
+
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+/*lower part*/
+.lower{
+    background-color: lemonchiffon;
+    display: inline-block;
+    text-align: center;
+    margin-top:20px ;
+    height: 24%; 
+    width: 100%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+    .last-button:hover{
+        background-color: darkgoldenrod;
+        color: black;
+    }
+.last-button{
+    height: 40%;
+    margin-bottom: 100px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #63bbf2;
+    padding:15px 30px;
+    border-radius: 10px;
+    color: lemonchiffon;
+    margin: 10px 20px;
+}
+.client{
+    height: 60%;
+}
+.bruce{
+    color: coral;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    font-size: small;
+    background-color: darkslategray;
+    color: whitesmoke;
+    display:fixed;
+    float: none;
+}

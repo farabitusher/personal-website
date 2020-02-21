@@ -6,8 +6,10 @@ body{
 .header{
     background-image: url("personal-website\personal-website\header.png");
     background-repeat: no-repeat;
+    background-size: cover;
+    
     float: left;
-    height: 24%;
+    height: ;
     margin-bottom: 5px;
 }
 h1{
@@ -25,14 +27,14 @@ h1{
     width: 50%;
 }
 .button:hover{
-    background-color: rgb(238, 241, 11) 44);
+    background-color: ;
     color:black;
 }
 .button{
     text-decoration: none;
     text-align: center;
     background-color: #63bbf2;
-    padding:4px 10px;
+    padding:6px 12px;
     border-radius: 10px;
     color: lemonchiffon;
 
@@ -41,8 +43,11 @@ h1{
 
 /*second part start*/
 .mid{
+    background-image: url("personal-website\personal-website\header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     float: left;
-    height: 24%;
+    height: ;
     margin-top: 50px;
 }
 .second-img{
@@ -59,8 +64,12 @@ h1{
 }
 /*second part finished*/
 .lower-mid{
+    background-image: url("personal-website\personal-website\header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
     float: left;
-    height: 24%;
+    height: ;
     text-align: center;
     margin-top: 50px;
     justify-content: center;
@@ -70,20 +79,20 @@ h1{
 }
 .work1{
     float: left;
-    width: 25%;
-    padding-left: 20px;
+    width: 30%;
+    
     border: 1px lemonchiffon;
     padding: 5px;
 }
 .work2{
     padding: 5px;
     float: left;
-    width: 25%;
+    width: 30%;
 }
 .work3{
 
     float: left;
-    width: 25%;
+    width: 30%;
     padding: 5px;
 }
 /*lower part*/
@@ -92,8 +101,8 @@ h1{
     display: inline-block;
     text-align: center;
     margin-top:20px ;
-    height: 24%; 
-    width: 100%;
+    height: %; 
+    width:%;
     margin-left: 20px;
     margin-bottom: 20px;
 }
@@ -102,18 +111,21 @@ h1{
         color: black;
     }
 .last-button{
-    height: 40%;
-    margin-bottom: 100px;
+    background-image: url("personal-website\personal-website\header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: %;
+    
     text-decoration: none;
     text-align: center;
     background-color: #63bbf2;
     padding:15px 30px;
     border-radius: 10px;
     color: lemonchiffon;
-    margin: 10px 20px;
+  
 }
 .client{
-    height: 60%;
+    height: %;
 }
 .bruce{
     color: coral;
@@ -121,10 +133,16 @@ h1{
 
 footer{
     width: 100%;
+    height: 50px;
+    text-justify: auto;
     text-align: center;
     font-size: small;
     background-color: darkslategray;
     color: whitesmoke;
     display:fixed;
     float: none;
+}
+
+    
+
 }
